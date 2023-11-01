@@ -9,7 +9,7 @@
 
 ## 📝 Tabela de conteúdos
 - [Instalando tudo que é necessário (Passo 1)](#step1)
-- [Instalando `kubectl` (Passo 2)](#step2)
+- [Instalando kubectl (Passo 2)](#step2)
 - [ Instalando o minikube (Passo 3)](#step3)
 - [Referências](#documentation)
 
