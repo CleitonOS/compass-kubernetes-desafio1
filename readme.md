@@ -139,6 +139,19 @@ Instalando a versão para o Linux (x86-64)
     minikube start
     ```
 
+- Caso Tenha problemas para iniciar com o Docker, utilize esse comando:
+
+    ```
+    minikube start --driver=docker
+    ```
+
+    - Para problemas relacionados as permissões do docker (Problema comum):
+
+        ```
+        sudo usermod -aG docker $USER && newgrp docker
+        ```
+    - Depois de executar esse comando, execute o comando anterior.
+
 - Interaja com o seu cluster e veja os componentes rodando:
 
     ```
